@@ -12,7 +12,7 @@ Briefly, this method assumes that unknown metabolic reaction fluxes can be estim
 S \cdot v = 0
 \]
 
-where \( S \) and \( v \) denote the stoichiometric matrix and the vector of net reaction rates (pmol/min/μg protein) respectively[^62].
+where \( S \) and \( v \) denote the stoichiometric matrix and the vector of net reaction rates (pmol/min/μg protein) respectively.
 
 Non-negativity constraints and boundary constraints were incorporated into the model using empirical data obtained from several experiments in this study:
 
@@ -25,7 +25,7 @@ v_{lb} \leq v_i \leq v_{ub}
 
 where \( v_i \) denotes the \( i^{th} \) reaction flux, and \( v_{lb} \) and \( v_{ub} \) are the upper and lower flux bounds respectively.
 
-The objective function was designed to maximize the rate of flux through all reactions in the network[^62]:
+The objective function was designed to maximize the rate of flux through all reactions in the network:
 
 \[
 \text{maxObj}(s,v) = \sum c_i v_i
@@ -55,4 +55,4 @@ Q_{\text{Eff}} = \frac{(JO_{2,\text{init}} - JO_{2,\text{oligo}})}{(JO_{2,\text{
 
 Where \( JO_{2,\text{init}} \) is the initially measured oxygen consumption rate and \( JO_{2,\text{oligo}} \) is measured following titration of oligomycin (50 nM up to ~200 nM). \( Q_{\text{Eff}} \) represents the quantity of respiration that is 'sensitive' to inhibition of ATP synthase.
 
-Respiration that remains is coupled with other dissipative processes such as electrogenic transport, uncoupling protein activity, etc. In the linear optimization model, \( Q_{\text{Eff}} \) was used as a correction factor for the ATP:O ratio (2.65)[^63], resulting in a final ATP:O ratio of 1.58 for NADH-linked respiration.
+Respiration that remains is coupled with other dissipative processes such as electrogenic transport, uncoupling protein activity, etc. In the linear optimization model, \( Q_{\text{Eff}} \) was used as a correction factor for the ATP:O ratio (2.65), resulting in a final ATP:O ratio of 1.58 for NADH-linked respiration.
