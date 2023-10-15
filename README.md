@@ -2,7 +2,7 @@
 A constrained linear optimization model to accompany the article: "Pyruvate modulation of redox potential governs mouse sperm motility "
 # Constrained Linear Optimization Modeling
 
-To estimate how specific metabolic network states relate energetically to sperm mechanical function, a constrained linear optimization model was developed in conjunction with empirical data. This approach aims to incorporate information regarding dynamics of the metabolic network and compare it with kinematic efficiency[^34][^61].
+To estimate how specific metabolic network states relate energetically to sperm mechanical function, a constrained linear optimization model was developed in conjunction with empirical data. This approach aims to incorporate information regarding dynamics of the metabolic network and compare it with kinematic efficiency.
 
 ## Methodology
 
